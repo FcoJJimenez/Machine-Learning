@@ -1,12 +1,6 @@
-# 💳 DETECCIÓN DE FRAUDES EN TARJETAS DE CRÉDITO
+# 💳 Detección de Fraudes en Tarjetas de Crédito
 
 Proyecto realizado para el curso de **Programa de Aprendizaje Basado en Proyectos en Inteligencia Artificial** de IBM en septiembre de 2024.
-
-## 📂 Datos
-
-El archivo de datos utilizado para este proyecto se encuentra disponible en el repositorio y puede descargarse desde [este enlace](./ruta/del/archivo.csv).  
-Asegúrate de clonar el repositorio y tener el archivo en el mismo directorio para ejecutar correctamente el notebook. 
-
 
 ## 🔍 Objetivo
 
@@ -16,13 +10,13 @@ Este proyecto tiene como objetivo desarrollar un sistema de detección de fraude
 
 ## 📑 Tabla de Contenidos
 
-1. [Introducción](#introducción)
-2. [Descripción del Proyecto](#descripción-del-proyecto)
-3. [Análisis Exploratorio de Datos (EDA)](#análisis-exploratorio-de-datos-eda)
-4. [Modelado y Técnicas Empleadas](#modelado-y-técnicas-empleadas)
-5. [Evaluación de Métricas](#evaluación-de-métricas)
-6. [Conclusiones](#conclusiones)
-7. [Instrucciones de Ejecución](#instrucciones-de-ejecución)
+1. [Introducción](#📝-introducción)
+2. [Descripción del Proyecto](#🗂️-descripción-del-proyecto)
+3. [Análisis Exploratorio de Datos (EDA)](#📊-análisis-exploratorio-de-datos-eda)
+4. [Modelado y Técnicas Empleadas](#🤖-modelado-y-técnicas-empleadas)
+5. [Evaluación de Métricas](#📈-evaluación-de-métricas)
+6. [Conclusiones](#🔍-conclusiones)
+7. [Instrucciones de Ejecución](#⚙️-instrucciones-de-ejecución)
 
 ---
 
@@ -42,17 +36,15 @@ El conjunto de datos contiene transacciones de tarjetas de crédito, donde cada 
 
 Durante el EDA se realizó un análisis detallado de las características y distribuciones de las transacciones para comprender mejor los factores que pueden diferenciar las transacciones legítimas de las fraudulentas.
 
-1. **Distribución de los importes de Transacción**: El gráfico de distribución de los importes de las transacciones muestra diferencias en la frecuencia entre transacciones fraudulentas y legítimas, lo cual puede ser un indicador importante en la detección de fraude.
+1. **Distribución de Monto de Transacción**: El gráfico de distribución de los montos de las transacciones muestra diferencias en el gasto entre transacciones fraudulentas y legítimas, lo cual puede ser un indicador importante en la detección de fraude.
 
-   ![Distribución de los importes de Fraude](charts/fraud_amount_distribution.png)
-   
-      ![Distribución de los importes de Fraude](charts/fraud_amount_distribution_seaborn.png)
+   ![Distribución de Monto de Fraude](charts/fraud_amount_distribution.png)
 
 2. **Balance de Clases**: Dada la naturaleza desbalanceada del conjunto de datos, se presentan gráficos para visualizar la proporción entre transacciones legítimas y fraudulentas. También se emplea una escala logarítmica para observar mejor la distribución de cada clase en términos de su cantidad.
 
    ![Fraude vs No Fraude](charts/fraud_vs_no_fraud.png)
    
-   ![Fraude vs No Fraude (Escala Logarítmica)](charts/fraud_vs_no_fraud_log.png)
+   ![Fraude vs No Fraude (Escala Logarítmica)](charts/deteccion-fraudes-tarjetas/images/fraud_vs_no_fraud_log.png)
 
 ---
 
@@ -100,4 +92,4 @@ El modelo final muestra un rendimiento robusto y adecuado para la detección de 
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
+   git clone https://github.com/FcoJJimenez/Machine-Learning.git
