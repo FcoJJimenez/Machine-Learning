@@ -60,11 +60,7 @@ Para identificar transacciones fraudulentas, se probaron múltiples algoritmos d
 Cada modelo fue ajustado y evaluado en base a su precisión para identificar fraudes, con técnicas de sobremuestreo para compensar el desbalance de clases en los datos.
 
 ---
-<<<<<<< HEAD
 <a name="#📈-evaluación-de-métricas"></a>
-=======
-<a name="📈-evaluación-de-métricas"><a>
->>>>>>> 6cc191e2e40a20060d0d9070a42b54ade97d2c74
 ## 📈 Evaluación de Métricas
 
 Para evaluar el rendimiento de los modelos, se emplearon las siguientes métricas:
@@ -85,7 +81,7 @@ La **matriz de confusión** fue utilizada para observar los aciertos y errores e
 El modelo final muestra un rendimiento robusto y adecuado para la detección de fraudes en transacciones de tarjetas de crédito. Se recomienda actualizar y mejorar el modelo de forma periódica, debido a que los patrones de fraude tienden a evolucionar con el tiempo y pueden volverse más sofisticados.
 
 ---
-<a name="#⚙️-instrucciones-de-ejecución"></<>>
+<a name="#⚙️-instrucciones-de-ejecución"></a>
 ## ⚙️ Instrucciones de Ejecución
 
 ### Prerrequisitos
