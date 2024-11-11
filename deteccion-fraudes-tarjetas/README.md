@@ -59,7 +59,7 @@ Para identificar transacciones fraudulentas, se probaron múltiples algoritmos d
 Cada modelo fue ajustado y evaluado en base a su precisión para identificar fraudes, con técnicas de sobremuestreo para compensar el desbalance de clases en los datos.
 
 ---
-
+<a name="📈-evaluación-de-métricas"><a>
 ## 📈 Evaluación de Métricas
 
 Para evaluar el rendimiento de los modelos, se emplearon las siguientes métricas:
