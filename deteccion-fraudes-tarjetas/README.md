@@ -19,19 +19,19 @@ Este proyecto tiene como objetivo desarrollar un sistema de detección de fraude
 7. [Instrucciones de Ejecución](#⚙️-instrucciones-de-ejecución)
 
 ---
-
+<a name="#📝-introducción"></a>
 ## 📝 Introducción
 
 El fraude con tarjetas de crédito representa un desafío crítico en el ámbito financiero, debido a las pérdidas económicas y al impacto en la confianza de los clientes. Este proyecto aborda este problema mediante el uso de modelos de Machine Learning que detectan patrones anómalos en las transacciones, permitiendo así reducir el riesgo de fraude de forma automatizada y eficiente.
 
 ---
-
+<a name="#🗂️-descripción-del-proyecto"></a>
 ## 🗂️ Descripción del Proyecto
 
 El conjunto de datos contiene transacciones de tarjetas de crédito, donde cada transacción está clasificada como fraudulenta o no fraudulenta. La variable objetivo (`Class`) indica si una transacción es legítima (`0`) o fraudulenta (`1`). La proporción entre transacciones legítimas y fraudulentas es altamente desbalanceada, lo cual representa un reto para el modelado.
 
 ---
-
+<a name="#📊-análisis-exploratorio-de-datos-eda"></a>
 ## 📊 Análisis Exploratorio de Datos (EDA)
 
 Durante el EDA se realizó un análisis detallado de las características y distribuciones de las transacciones para comprender mejor los factores que pueden diferenciar las transacciones legítimas de las fraudulentas.
@@ -39,15 +39,16 @@ Durante el EDA se realizó un análisis detallado de las características y dist
 1. **Distribución de Monto de Transacción**: El gráfico de distribución de los montos de las transacciones muestra diferencias en el gasto entre transacciones fraudulentas y legítimas, lo cual puede ser un indicador importante en la detección de fraude.
 
    ![Distribución de Monto de Fraude](charts/fraud_amount_distribution.png)
+   ![Distribución de Monto de Fraude](charts/fraud_amount_distribution_seaborn.png)
 
 2. **Balance de Clases**: Dada la naturaleza desbalanceada del conjunto de datos, se presentan gráficos para visualizar la proporción entre transacciones legítimas y fraudulentas. También se emplea una escala logarítmica para observar mejor la distribución de cada clase en términos de su cantidad.
 
    ![Fraude vs No Fraude](charts/fraud_vs_no_fraud.png)
    
-   ![Fraude vs No Fraude (Escala Logarítmica)](charts/deteccion-fraudes-tarjetas/images/fraud_vs_no_fraud_log.png)
+   ![Fraude vs No Fraude (Escala Logarítmica)](charts/fraud_vs_no_fraud_log.png)
 
 ---
-
+<a name="#🤖-modelado-y-técnicas-empleadas"></a>
 ## 🤖 Modelado y Técnicas Empleadas
 
 Para identificar transacciones fraudulentas, se probaron múltiples algoritmos de Machine Learning. Los modelos principales incluyen:
@@ -59,7 +60,7 @@ Para identificar transacciones fraudulentas, se probaron múltiples algoritmos d
 Cada modelo fue ajustado y evaluado en base a su precisión para identificar fraudes, con técnicas de sobremuestreo para compensar el desbalance de clases en los datos.
 
 ---
-
+<a name="#📈-evaluación-de-métricas"></a>
 ## 📈 Evaluación de Métricas
 
 Para evaluar el rendimiento de los modelos, se emplearon las siguientes métricas:
@@ -74,12 +75,13 @@ La **matriz de confusión** fue utilizada para observar los aciertos y errores e
 
 ---
 
+<a name="#🔍-conclusiones"></a>
 ## 🔍 Conclusiones
 
 El modelo final muestra un rendimiento robusto y adecuado para la detección de fraudes en transacciones de tarjetas de crédito. Se recomienda actualizar y mejorar el modelo de forma periódica, debido a que los patrones de fraude tienden a evolucionar con el tiempo y pueden volverse más sofisticados.
 
 ---
-
+<a name="#⚙️-instrucciones-de-ejecución"></<>>
 ## ⚙️ Instrucciones de Ejecución
 
 ### Prerrequisitos
